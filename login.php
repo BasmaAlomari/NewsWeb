@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
 
 		}else {
 
-			$error = "Username or Password is invalid";
+			$error = "Invalid username or password";
             $_SESSION['login_error'] = $error;
             header("Location: loginform.php");
             exit();
